@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 
+  model: MyString
+  price: 9.99
+  quantity: 1
+  order: one
+
+two:
+  name: MyString
+  type: 
+  model: MyString
+  price: 9.99
+  quantity: 1
+  order: two

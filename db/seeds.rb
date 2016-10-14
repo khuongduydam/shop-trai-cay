@@ -5,6 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-(1..100).each do |i|
-  User.create(name: "I'm #{i}",email:"#{i}@gmail.com",first_name: "#{i}mama",last_name: "#{i}nana")
-end
+# Customer.create(id:1,name:"Ryudo",address:"123 alibaba", 
+#                 phone:"0987654321",email:"ryu@gmail.com")
+# Order.create(id:1,model:"orl",total_price:1000,
+#              quantity:1000,status:"OK",customer_id:1)
+# Product.create(id:1,name:"Apple",type_of_product:"fruit",
+#                model:"apl",price:123.12,quantity:100,order_id:1)

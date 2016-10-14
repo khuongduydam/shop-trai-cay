@@ -1,0 +1,30 @@
+ul.nav.navbar-nav a
+{
+  background-color: none;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+ul.nav.navbar-nav a:hover{
+  background-color: gray;
+}
+
+ul#list li a{
+  color:#000;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 30%;
+  margin: auto;
+}
+
+#carousel-example-generic.carousel.slide
+{
+  margin-top:-20px;
+}
+
+div.item.active{
+  padding: 50px;
+}

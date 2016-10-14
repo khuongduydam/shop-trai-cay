@@ -10,35 +10,43 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161010095121) do
+ActiveRecord::Schema.define(version: 20161014101035) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "posts", force: :cascade do |t|
-    t.string   "title"
-    t.text     "body"
+  create_table "customers", force: :cascade do |t|
+    t.string   "name"
+    t.string   "address"
+    t.string   "phone"
+    t.string   "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "orders", force: :cascade do |t|
+    t.string   "model"
+    t.decimal  "total_price"
+    t.string   "status"
+    t.integer  "quantity"
+    t.integer  "customer_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.index ["customer_id"], name: "index_orders_on_customer_id", using: :btree
   end
 
   create_table "products", force: :cascade do |t|
     t.string   "name"
-    t.integer  "quantity"
-    t.string   "color"
-    t.string   "type"
+    t.string   "type_of_product"
     t.string   "model"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.decimal  "price",           precision: 5, scale: 2
+    t.integer  "quantity"
+    t.integer  "order_id"
+    t.datetime "created_at",                              null: false
+    t.datetime "updated_at",                              null: false
+    t.index ["order_id"], name: "index_products_on_order_id", using: :btree
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "first_name"
-    t.string   "last_name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
+  add_foreign_key "orders", "customers"
+  add_foreign_key "products", "orders"
 end
