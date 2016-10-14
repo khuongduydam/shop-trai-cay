@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="jquery.validate.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+  <script src="jquery.twbsPagination.js"></script>  
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+</head>
+<body>
+  <div class="container">
+    <table class="table table-bordered table-striped">
+      <thead>
+        <h4 class="text-center">List something</h4>
+        <select style="float:right;" id="box">
+          <option value="5">5</option>
+          <option value="10" selected="">10</option>
+          <option value="15">15</option>
+          <option value="23">23</option>
+        </select>
+        <tr>
+          <td><h4>Email</h4></td>
+          <td><h4>First Name</h4></td>
+          <td><h4>Language</h4></td>
+          <td><h4>Last Name</h4></td>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <ul id="paging" class="pagination-xs"></ul>
+    <br /><div><p>Total shown: <span name="shown"></span></p></div>
+    <div><p>Total in file: <span name="file"></span></p></div>
+  </div>
+
+  <li class="active">
+    <a id="tab_normal" href="#tab_normal_nav" data-toggle="tab" aria-expanded="true" style="pointer-events: none;">Normal Booking</a>
+  </li>
+  <script>
+    $(function(){
+      var elem = document.getElementById('box');
+      per_page = elem.options[elem.selectedIndex].value;
+      $('#box').on('click',function(){
+        per_page = $(this).val();
+        $('#paging').data("twbsPagination","");
+        var total = Math.ceil($('span[name=file]').text()/per_page);
+        $('#paging').twbsPagination({totalPages: total});
+        $.ajax(
+        { 
+          url: 'http://localhost:3000/index', 
+          dataType: 'json',
+          data: {page: page, per_page: per_page },
+          success: function(data){
+            $.each(data.data,function(key,value){ 
+              $('tbody').append('<tr><td>'+value.email+'</td><td>'+value.first_name+'</td><td>'+value.language+'</td><td>'+value.last_name+'</tr>');
+            });
+            $('span[name=shown]').text($('tbody tr').length);
+            $('span[name=file]').text(data.total_count);
+          }
+        });
+      });
+      $('#paging').twbsPagination({
+        totalPages: 1,
+        onPageClick: function (event, page) {
+          $.ajax(
+          { 
+            url: 'http://localhost:3000/index', 
+            dataType: 'json',
+            data: {page: page, per_page: per_page },
+            success: function(data){
+              $.each(data.data,function(key,value){ 
+                $('tbody').append('<tr><td>'+value.email+'</td><td>'+value.first_name+'</td><td>'+value.language+'</td><td>'+value.last_name+'</tr>');
+              });
+              $('span[name=shown]').text($('tbody tr').length);
+              $('span[name=file]').text(data.total_count);
+            }
+          });
+        }
+      });
+      $(document).ajaxStart(function(){
+        $('tbody').empty(); 
+      });
+    });
+  </script>
+</body>
+</html>
