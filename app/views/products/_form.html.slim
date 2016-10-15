@@ -1,0 +1,31 @@
+h1.text-center Create a New Product
+.container
+  = form_for :product,url: products_path do |f|
+    .form-group.center-block[style="width:500px;"]
+      p
+        = f.label :name
+        br
+        = f.text_field :name,class:"form-control"
+      p
+        = f.label :type_of_product
+        br
+        = f.text_field :type_of_product,class:"form-control"
+      p
+        = f.label :model
+        br
+        = f.text_field :model,class:"form-control"
+      p
+        = f.label :come_from
+        br
+        = f.text_field :come_from,class:"form-control"    
+      p
+        = f.label :price
+        br
+        = f.number_field :price,class:"form-control"
+      p 
+        = f.label :quantity
+        br
+        = f.number_field :quantity,class:"form-control"
+      p
+        = f.submit "Finish",class: "btn btn-lg btn-success"        
+        = link_to "Home", products_path,class: "btn btn-warning btn-lg",style: 'margin-left:10px;'

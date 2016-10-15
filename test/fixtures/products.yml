@@ -2,16 +2,16 @@
 
 one:
   name: MyString
-  type: 
   model: MyString
-  price: 9.99
+  type_of_product: MyString
   quantity: 1
-  order: one
+  price: 1
+  come_from: MyString
 
 two:
   name: MyString
-  type: 
   model: MyString
-  price: 9.99
+  type_of_product: MyString
   quantity: 1
-  order: two
+  price: 1
+  come_from: MyString

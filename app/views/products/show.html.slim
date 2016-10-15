@@ -1,0 +1,35 @@
+h1.text-center Product has created recently!!!
+.container
+  .form-group.text-center
+    strong.pull-left[style="position:relative;left:400px;"] 
+      | Name:
+    .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"]   
+      = @product.name
+    br
+    strong.pull-left[style="position:relative;left:400px;"] 
+      | Model:
+    .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"] 
+      = @product.model
+    br
+    strong.pull-left[style="position:relative;left:400px;"] 
+      | Type Of Product:
+    .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"]   
+      = @product.type_of_product
+    br
+    strong.pull-left[style="position:relative;left:400px;"] 
+      | Come From: 
+    .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"]  
+      = @product.come_from
+    br
+    strong.pull-left[style="position:relative;left:400px;"]
+      | Price: 
+    .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"]  
+      = @product.price
+    br
+    strong.pull-left[style="position:relative;left:400px;"] 
+      | Quantity: 
+    .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"]
+      = @product.quantity  
+    br   
+    = link_to 'Back',products_path,class:'btn btn-lg btn-danger',style: "color:#fff;"
+
