@@ -13499,3 +13499,1132 @@ Processing by ProductController#index as HTML
 Completed 200 OK in 92ms (Views: 90.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:19:38 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.5ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (526.2ms)
+Completed 200 OK in 654ms (Views: 632.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:22:51 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (52.3ms)
+Completed 200 OK in 108ms (Views: 105.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:23:04 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (21.2ms)
+Completed 200 OK in 63ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:24:24 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (35.3ms)
+Completed 200 OK in 98ms (Views: 96.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:24:40 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (30.9ms)
+Completed 200 OK in 73ms (Views: 72.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:24:50 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (20.8ms)
+Completed 200 OK in 75ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:24:59 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.1ms)
+Completed 200 OK in 65ms (Views: 63.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:25:09 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (18.7ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:25:17 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.0ms)
+Completed 200 OK in 66ms (Views: 64.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:28:54 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (25.6ms)
+Completed 200 OK in 95ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:29:10 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (26.9ms)
+Completed 200 OK in 91ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:30:03 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (33.3ms)
+Completed 200 OK in 83ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:31:23 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.0ms)
+Completed 200 OK in 71ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:32:45 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (35.7ms)
+Completed 200 OK in 91ms (Views: 90.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:32:50 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (26.6ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:33:10 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (34.6ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:33:25 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (22.6ms)
+Completed 200 OK in 72ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:33:32 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (22.5ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:33:51 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (25.5ms)
+Completed 200 OK in 79ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:34:23 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (21.1ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:34:57 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.2ms)
+Completed 200 OK in 76ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:35:07 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (20.9ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:35:09 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.5ms)
+Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:35:11 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (21.0ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:35:35 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.4ms)
+Completed 200 OK in 82ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:35:38 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (20.9ms)
+Completed 200 OK in 61ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:35:55 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (22.8ms)
+Completed 200 OK in 83ms (Views: 81.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:36:19 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.6ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:36:55 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (35.4ms)
+Completed 200 OK in 87ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:38:19 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.2ms)
+Completed 200 OK in 74ms (Views: 73.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:38:44 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (25.1ms)
+Completed 200 OK in 68ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:40:13 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (46.6ms)
+Completed 200 OK in 133ms (Views: 131.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:41:18 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (20.9ms)
+Completed 200 OK in 61ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:41:43 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.9ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:43:59 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (21.2ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:45:27 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (26.2ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:46:43 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.3ms)
+Completed 200 OK in 76ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:47:17 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.1ms)
+Completed 200 OK in 89ms (Views: 87.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:47:47 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.4ms)
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:58: syntax error, unexpected '}', expecting =>
+...ap-text",{style="width:250px;"}))).to_s)); 
+...                               ^
+/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:97: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:99: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/product/index.html.slim:58: syntax error, unexpected '}', expecting =>
+app/views/product/index.html.slim:97: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/product/index.html.slim:99: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.8ms)
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.1ms)
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:47:57 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (19.0ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:58: syntax error, unexpected ')', expecting =>
+...p-text",(style="width:250px;")))).to_s)); 
+...                               ^
+/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:97: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:99: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/product/index.html.slim:58: syntax error, unexpected ')', expecting =>
+app/views/product/index.html.slim:97: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/product/index.html.slim:99: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.9ms)
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:48:03 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (19.8ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:58: syntax error, unexpected ')', expecting =>
+...hap-text",style="width:250px;"))).to_s)); 
+...                               ^
+/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:97: syntax error, unexpected keyword_ensure, expecting ')'
+/home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim:99: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/product/index.html.slim:58: syntax error, unexpected ')', expecting =>
+app/views/product/index.html.slim:97: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/product/index.html.slim:99: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (17.5ms)
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.3ms)
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:48:19 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (27.0ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:48:57 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (31.0ms)
+Completed 200 OK in 93ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:49:16 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.1ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:49:36 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (28.0ms)
+Completed 200 OK in 81ms (Views: 79.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:49:52 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (21.9ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:49:59 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (42.9ms)
+Completed 200 OK in 85ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:50:59 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (26.6ms)
+Completed 200 OK in 70ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:52:01 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (21.9ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:52:17 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.8ms)
+Completed 200 OK in 95ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:53:46 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.0ms)
+Completed 200 OK in 74ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:54:00 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (36.4ms)
+Completed 200 OK in 84ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:54:04 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.4ms)
+Completed 200 OK in 75ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:54:10 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (22.7ms)
+Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:54:38 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (25.1ms)
+Completed 200 OK in 87ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:54:50 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (25.3ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:55:15 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (38.2ms)
+Completed 200 OK in 97ms (Views: 95.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:56:17 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (28.2ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:57:00 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (26.7ms)
+Completed 200 OK in 80ms (Views: 78.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:57:28 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (31.4ms)
+Completed 200 OK in 92ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:58:27 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (27.4ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:58:58 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (36.5ms)
+Completed 200 OK in 89ms (Views: 86.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:59:02 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (27.2ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:59:16 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.2ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 17:59:21 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (28.0ms)
+Completed 200 OK in 81ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:00:16 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (27.8ms)
+Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:00:28 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (35.6ms)
+Completed 200 OK in 83ms (Views: 82.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:00:50 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (29.8ms)
+Completed 200 OK in 95ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:01:08 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (28.8ms)
+Completed 200 OK in 76ms (Views: 75.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:01:21 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (40.5ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:01:41 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (69.7ms)
+Completed 200 OK in 158ms (Views: 155.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:01:44 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.0ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:01:56 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (27.5ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:05:55 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (58.0ms)
+Completed 200 OK in 112ms (Views: 110.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:09:27 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (23.8ms)
+Completed 200 OK in 69ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:09:43 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (29.3ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:09:54 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (29.8ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:12:06 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (35.1ms)
+Completed 200 OK in 96ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:12:18 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.5ms)
+Completed 200 OK in 77ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:12:33 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (24.4ms)
+Completed 200 OK in 66ms (Views: 65.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:12:40 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.1ms)
+Completed 200 OK in 76ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:12:56 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (25.8ms)
+Completed 200 OK in 65ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:13:07 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.4ms)
+Completed 200 OK in 84ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:13:14 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (28.4ms)
+Completed 200 OK in 69ms (Views: 67.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:13:16 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (31.8ms)
+Completed 200 OK in 80ms (Views: 78.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:13:27 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (30.4ms)
+Completed 200 OK in 84ms (Views: 82.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:13:40 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (25.0ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:13:47 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (27.3ms)
+Completed 200 OK in 79ms (Views: 77.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:14:02 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (26.3ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:14:51 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (41.0ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:16:09 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (27.6ms)
+Completed 200 OK in 74ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:17:36 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (29.6ms)
+Completed 200 OK in 75ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:21:18 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (36.3ms)
+Completed 200 OK in 108ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:21:33 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (25.3ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:22:50 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (42.3ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:23:25 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (26.0ms)
+Completed 200 OK in 67ms (Views: 65.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:27:54 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (27.2ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:28:20 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (32.1ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:31:44 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (30.4ms)
+Completed 200 OK in 75ms (Views: 73.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:38:27 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (41.5ms)
+Completed 200 OK in 85ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:38:42 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (31.7ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:39:11 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (34.4ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:40:19 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (42.9ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:43:26 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (32.7ms)
+Completed 200 OK in 73ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:45:12 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (29.8ms)
+Completed 200 OK in 69ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:48:05 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (42.3ms)
+Completed 200 OK in 100ms (Views: 98.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:48:46 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (33.4ms)
+Completed 200 OK in 77ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:49:11 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (42.5ms)
+Completed 200 OK in 86ms (Views: 84.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:49:13 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (34.0ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:49:29 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.9ms)
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:49:49 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (36.6ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:49:55 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (41.4ms)
+Completed 200 OK in 97ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:50:08 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (32.7ms)
+Completed 200 OK in 72ms (Views: 70.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:51:31 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (38.9ms)
+Completed 200 OK in 79ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:52:08 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (47.1ms)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:52:20 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (36.0ms)
+Completed 200 OK in 79ms (Views: 77.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:52:41 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (36.2ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:53:01 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (55.9ms)
+Completed 200 OK in 106ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:54:21 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (75.9ms)
+Completed 200 OK in 171ms (Views: 169.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:54:29 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (31.5ms)
+Completed 200 OK in 72ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:55:09 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (50.2ms)
+Completed 200 OK in 89ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:55:16 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (33.5ms)
+Completed 200 OK in 75ms (Views: 74.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:55:29 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (32.4ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:55:47 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (46.3ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:56:00 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (32.7ms)
+Completed 200 OK in 73ms (Views: 72.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:56:05 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (35.2ms)
+Completed 200 OK in 76ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:56:32 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (39.0ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:56:36 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (34.3ms)
+Completed 200 OK in 74ms (Views: 72.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:56:41 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (33.3ms)
+Completed 200 OK in 71ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:56:53 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (51.4ms)
+Completed 200 OK in 116ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:57:04 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (33.7ms)
+Completed 200 OK in 72ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:58:02 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (45.8ms)
+Completed 200 OK in 88ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:58:06 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (36.8ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:58:17 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (34.1ms)
+Completed 200 OK in 74ms (Views: 72.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:58:24 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (45.9ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:58:38 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (35.6ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:58:42 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (34.3ms)
+Completed 200 OK in 73ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 18:59:46 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (46.1ms)
+Completed 200 OK in 86ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:00:20 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (62.7ms)
+Completed 200 OK in 113ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:00:36 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (38.7ms)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:00:46 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (13.3ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Unexpected indentation
+  /home/ryudo617/Desktop/DoAn/doan/app/views/product/index.html.slim, Line 111, Column 10
+    p
+    ^
+):
+    108:         br/
+    109:         br/
+    110:         br/
+    111:           p
+    112:             | - Giờ mở cửa -
+    113:           p
+    114:             | - Cả tuần
+  
+app/views/product/index.html.slim:111
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.2ms)
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.0.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (33.4ms)
+DEPRECATION WARNING: #original_exception is deprecated. Use #cause instead. (called from status_code_with_paginate at /home/ryudo617/.rvm/gems/ruby-2.3.0/gems/will_paginate-3.1.3/lib/will_paginate/railtie.rb:43)
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:00:52 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (45.5ms)
+Completed 200 OK in 86ms (Views: 84.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:01:49 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.4ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:01:54 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.5ms)
+Completed 200 OK in 77ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:01:58 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (34.6ms)
+Completed 200 OK in 72ms (Views: 70.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:02:07 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (54.1ms)
+Completed 200 OK in 93ms (Views: 91.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:02:13 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.7ms)
+Completed 200 OK in 88ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:02:26 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (37.4ms)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:02:33 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (45.8ms)
+Completed 200 OK in 83ms (Views: 81.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/product" for 127.0.0.1 at 2016-10-15 19:02:37 +0700
+Processing by ProductController#index as HTML
+  Rendering product/index.html.slim within layouts/application
+  Rendered product/index.html.slim within layouts/application (53.3ms)
+Completed 200 OK in 95ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+
+

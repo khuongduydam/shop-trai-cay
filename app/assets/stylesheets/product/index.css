@@ -28,3 +28,33 @@ ul#list li a{
 div.item.active{
   padding: 50px;
 }
+
+.trai-cay-nhap,.trai-cay-dac-san,.do-kho,.rau-cu{
+  width:250px;
+  height:150px;
+}
+.trai-cay-nhap{
+  background-color: #652d91;
+}
+.trai-cay-dac-san{
+  background-color: #8ec63f;
+}
+.do-kho{
+  background-color: #d6df22;
+}
+.rau-cu{
+  background-color: #f25a29;
+}
+
+.col-md-3{
+  text-align: center;;
+}
+
+#trai-cay,#rau-cu,#dac-san,#do-kho{
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  position: relative;
+  bottom: -10px;
+  font-size: 20px;
+}
