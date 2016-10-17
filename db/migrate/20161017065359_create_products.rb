@@ -7,7 +7,6 @@ class CreateProducts < ActiveRecord::Migration[5.0]
       t.integer :quantity
       t.integer :price
       t.string :come_from
-
       t.timestamps
     end
   end

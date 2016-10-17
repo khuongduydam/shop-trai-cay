@@ -1,6 +1,10 @@
 h1.text-center Product has created recently!!!
 .container
   .form-group.text-center
+    = image_tag @product.avatar.url(:thumb)
+    br
+    br
+    br  
     strong.pull-left[style="position:relative;left:400px;"] 
       | Name:
     .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"]   

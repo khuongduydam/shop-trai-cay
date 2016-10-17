@@ -82,51 +82,26 @@ br/
 = link_to "New",new_product_path,class:"btn btn-info btn-lg",style:"color:#FFF;margin-left:40px;"
 .container
   .row
-    .col-md-8
+    .col-md-9
       .row
+      - @products.each do |product|
         .col-md-3
-          .well
-            p
-              |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati ut nulla ratione. Magni voluptatem quas itaque commodi odio quaerat magnam fuga. Nesciunt, accusantium a sequi. Delectus, reprehenderit magni accusamus tenetur!
-            br
-        .col-md-3
-          .well
-            p
-              |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit reiciendis, explicabo, possimus quidem voluptates ad eos provident hic cupiditate totam odio delectus odit nobis modi, laborum at atque accusantium temporibus.
-            br
-        .col-md-3
-          .well
-            p
-              |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo omnis illo, neque, quae possimus expedita. Molestiae enim itaque sit unde, quo neque a molestias laudantium maxime. Repudiandae laboriosam a totam.
-            br
-        .col-md-3
-          .well
-            p
-              |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsum fugit repellat consequuntur dolor aliquam quis, ex optio iure at et non reiciendis accusamus praesentium suscipit porro, asperiores labore cum./= product.name
-            br
-        .col-md-3
-          .well
-            p
-              |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsum fugit repellat consequuntur dolor aliquam quis, ex optio iure at et non reiciendis accusamus praesentium suscipit porro, asperiores labore cum./= product.name
-            br 
-        .col-md-3
-          .well
-            p
-              |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsum fugit repellat consequuntur dolor aliquam quis, ex optio iure at et non reiciendis accusamus praesentium suscipit porro, asperiores labore cum./= product.name
-            br
-        .col-md-3
-          .well
-            p
-              |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsum fugit repellat consequuntur dolor aliquam quis, ex optio iure at et non reiciendis accusamus praesentium suscipit porro, asperiores labore cum./= product.name
-            br
-        .col-md-3
-          .well
-            p
-              |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt ipsum fugit repellat consequuntur dolor aliquam quis, ex optio iure at et non reiciendis accusamus praesentium suscipit porro, asperiores labore cum./= product.name
-            br   
-    .col-md-4
+          = image_tag product.avatar.url(:normal),style: "height: 185px;object-fit: cover;width: 185px!important;border: 4px solid #EFEDED;border-radius: 25px!important;margin:20px 20px 0 0"
+          br
+          = product.name
+          br
+          = product.model
+          br
+          = product.type_of_product
+          br
+          = product.come_from
+          br
+          = product.price
+          br
+          br
+    .col-md-3
       .container
-        .open-hours[style="width:250px;height:400px;border:1px solid black;position:relative;right:-85px;border-radius:3px;text-align:center;"]
+        .open-hours[style="width:250px;height:400px;border:1px solid black;position:relative;border-radius:3px;text-align:center;"]
           br/
           br/
           br/
