@@ -2,6 +2,7 @@ class ProductsController < ApplicationController
   before_action :find_product,only: [:show,:edit,:destroy]
   def index
     @products = Product.all
+    @informations = Information.all
   end
 
   def new

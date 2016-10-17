@@ -59,3 +59,8 @@ div.item.active{
   font-size: 20px;
 }
 
+.col-md-4.text-center p{
+  font-size: 20px;
+  color:#fff;
+  font-family: Time New Roman;
+}

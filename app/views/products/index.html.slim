@@ -123,12 +123,87 @@ br/
           p
             |  0938 816 678
 
+br
+br
+.container-fluid
+  = image_tag "fruit04.jpg",style:"height:500px!important;width:100%"
+  br
+  p[style="color:#fff;font-size:35px;text-align:center;margin-top:-420px;font-family:Time New Roman"] 
+    | Giao hang tan noi that don gian
+  br
+  br
+  br
+  .container
+    .row
+      .col-md-4.text-center[style="width:300px;margin-right:100px;"]
+        img[src="http://greenyhouse.com/assets/uploads/2015/07/callicon.png" style="width:83px;height:83;"]
+        br
+        br
+        p 
+          strong ĐẶT HÀNG
+        br
+        p 
+          strong Qua phone, facebook hay website
+        p 
+          strong Họ tên, số dt, địa chỉ
+        p 
+          strong Sản phẩm 1, số lượng Sản phẩm 2, số lượng…Giờ giao hàng
 
-
-
-
-
-
+      .col-md-4.text-center[style="width:300px;margin-right:100px;"]
+        img[src="http://greenyhouse.com/assets/uploads/2015/07/shipicon.png" style="width:83;height:83px"]
+        br
+        br
+        p
+          strong GIAO HÀNG
+        br
+        p
+          strong Free ship cho đơn hàng trên 500k, quận 1, 3.20k cho đơn hàng ở quận 4, 5, 10, 11, Bình Thạnh,Gò Vấp, Phú Nhuận, Tân Bình, Tân Phú, Bình Tân.30k cho đơn hàng quận 2, 6, 7, 8, 9, 12, Thủ Đức
+      .col-md-4.text-center[style="width:300px;position:relative;right:-40px;"]
+        img[src="http://greenyhouse.com/assets/uploads/2015/07/moneyicon.png" style="width:83px;height:83px"]
+        br
+        br
+        p 
+          strong THANH TOÁN
+        br
+        p
+          strong Thanh toán khi nhận hàng(COD – Cash on delivery)Hoặc chuyển khoản trước(đối với đơn hàng ngoại tỉnh)  
+br
+br
+br
+br
+.container
+  h2 Trái cây nhập khẩu Greeny House
+  br
+  p 
+    | Trái cây từ lâu là một nguồn thực phẩm cung cấp nhiều vitamin và dưỡng chất, giúp cho con người có sức khỏe dẻo dai, chống lão hóa, duy trì tuổi thanh xuân. Hiện nay nhu cầu chọn trái cây sạch hằng ngày, trái cây sạch tươi ngon mới cho mỗi gia đình ngày càng cao. Một trái táo, một ly nước cam cũng đủ làm cho bạn cảm thấy thật dễ chịu, tinh thần thoải mái hơn, xóa tan những mệt mỏi của cuộc sống.
+    br
+    br
+  p
+    | Trái cây nhập khẩu với sự đảm bảo tiêu chuẩn gắt gao về vệ sinh an toàn thực phẩm hiện nay đang la một xu hướng mới của người tiêu dùng. Những sản phẩm như cherry, táo Rockit, táo Envy, nho đen không hạt Mỹ, nho Mỹ, Kiwi Newzealand, mận Mỹ và nhiều loại trái cây sạch phong phú khác. Giá trị dinh dưỡng trong từng loại trái cây này rất quý không những tươi ngon mà còn giúp chúng ta phòng tránh nhiều bệnh tật.
+    br
+    br
+  p
+    | Ngoài ra cửa hàng trái cây sạch Greeny House còn cung cấp mật ong nuôi, mật ong nguyên chất, loại thực phẩm từ lâu đã được cho là thần dược cho sức khỏe.
+    br
+    br
+  p
+    | Với phương thức đặt hàng, giao hàng và thanh toán dễ dàng, tiện lợi, giao hàng tận nơi với chi phí hợp lý, Greeny House sẽ là sự chọn lựa tốt nhất dành cho bạn.
+br
+br
+.container-fluid
+  h4[style="background-color: #8bc04e;padding:10px;width:310px;color:#fff"]
+    strong THÔNG TIN SỨC KHỎE LÀM ĐẸP
+  br
+  = link_to "New Information", new_information_path, class:"btn btn-lg btn-info",style:"color:#fff"  
+br
+.container
+  .row
+  - @informations.each do |info|
+    .col-md-3
+      - if info.present? 
+        = image_tag info.avatar,style:"height: 150px;object-fit: cover;width: 270px!important;border: 4px solid #EFEDED;border-radius: 25px 0 25px 0!important;margin:20px 20px 0 0" 
+      - else
+        nil
 
 
 
