@@ -13,7 +13,7 @@ class ProductsController < ApplicationController
     @product = Product.new(product_params)
     if @product.save
       flash[:notice] = "Create Successfull!!!"
-      redirect_to product_url
+      redirect_to @product
     else
       flash.now[:notice] = "Error!!!"
       render 'new'
@@ -24,9 +24,9 @@ class ProductsController < ApplicationController
   end
 
   def update
-    @product = Product.update(product_params)
-    if product.save
+    if @product.update_attributes(product_params)
       flash[:success] = "Update Successfull!!!"
+      redirect_to product_path @product
     else
       flash.now[:danger] = "Error!!!"
       render 'edit'
@@ -39,7 +39,7 @@ class ProductsController < ApplicationController
   def destroy
     if @product.destroy
       flash[:success] = "Deleted Successfull!!!"
-      redirect_to products_url 
+      redirect_to @product
     else
       flash[:danger] = "Error!!!"
     end

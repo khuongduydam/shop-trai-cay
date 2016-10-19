@@ -36,5 +36,6 @@ h1.text-center Product has created recently!!!
       = @product.quantity  
     br   
     = link_to 'Back',products_path,class:'btn btn-lg btn-warning',style: "color:#fff;"
+    = link_to "Edit", edit_product_url(@product),class:"btn btn-lg btn-primary",style:"color:#fff; margin-left:10px;"
     = link_to "Delete",product_url,method: :delete,data:{confirm:"Wanna delete this product?"},class:"btn btn-lg btn-danger",style:"margin-left:10px;color:#fff"
 

@@ -1,1 +1,32 @@
-= render 'form'
+h1.text-center Edit Product
+.container
+  = form_for :product,url: product_path, html: {multipart: true}, method: :put do |f|
+    - if @product.errors.any?
+      = pluralize(@product.errors.count,"error") 
+      p prohibited this product being saved
+      - @product.errors.full_messages.each do |msg|
+        = msg
+    .form-group.center-block[style="width:500px;"]
+      = f.label :avatar
+      = f.file_field :avatar
+      br
+      = f.label :name
+      = f.text_field :name,class:"form-control"
+      br
+      = f.label :type_of_product
+      = f.text_field :type_of_product,class:"form-control"
+      br
+      = f.label :model
+      = f.text_field :model,class:"form-control"
+      br
+      = f.label :come_from
+      = f.text_field :come_from,class:"form-control"  
+      br  
+      = f.label :price
+      = f.number_field :price,class:"form-control"
+      br
+      = f.label :quantity
+      = f.number_field :quantity,class:"form-control"
+      br
+      = f.submit "Finish",class: "btn btn-lg btn-success"        
+      = link_to "Home", products_path,class: "btn btn-warning btn-lg",style: 'margin-left:10px;'
