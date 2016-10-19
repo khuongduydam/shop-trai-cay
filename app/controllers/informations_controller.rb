@@ -20,6 +20,16 @@ class InformationsController < ApplicationController
     end
   end
 
+  def destroy
+    @info = Information.find(params[:id])
+    if @info.destroy
+      flash[:success] = "Delete successfull!!!"
+      redirect_to products_url
+    else
+      flash[:danger] = "Error"
+    end
+  end
+
   private
   def info_params
     params.require(:information).permit(:title,:string,:avatar)

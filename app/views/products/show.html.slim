@@ -1,7 +1,7 @@
 h1.text-center Product has created recently!!!
 .container
   .form-group.text-center
-    = image_tag @product.avatar.url(:thumb)
+    = image_tag @product.avatar.url(:normal)
     br
     br
     br  
@@ -35,5 +35,6 @@ h1.text-center Product has created recently!!!
     .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"]
       = @product.quantity  
     br   
-    = link_to 'Back',products_path,class:'btn btn-lg btn-danger',style: "color:#fff;"
+    = link_to 'Back',products_path,class:'btn btn-lg btn-warning',style: "color:#fff;"
+    = link_to "Delete",product_url,method: :delete,data:{confirm:"Wanna delete this product?"},class:"btn btn-lg btn-danger",style:"margin-left:10px;color:#fff"
 
