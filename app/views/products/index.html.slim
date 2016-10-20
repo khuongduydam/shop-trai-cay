@@ -197,19 +197,24 @@ br
   h4[style="background-color: #8bc04e;padding:10px;width:310px;color:#fff"]
     strong THÔNG TIN SỨC KHỎE LÀM ĐẸP
   br
-  = link_to "New Information", new_information_path, class:"btn btn-lg btn-info",style:"color:#fff"  
+  = link_to "New Information", new_tintuc_path, class:"btn btn-lg btn-info",style:"color:#fff"  
 br
 .container
   .row
-  - @informations.each do |info|
+  - @tintucs.each do |tintuc|
     .col-md-3
-      - if info.present?
-        = link_to information_url(info) do 
-          = image_tag info.avatar,style:"height: 150px;object-fit: cover;width: 270px!important;border: 4px solid #EFEDED;border-radius: 25px 0 25px 0!important;margin:20px 20px 0 0, text-decoration:none;background-color:#fff" 
+      - if tintuc.present?
+        = link_to tintuc_url(tintuc) do 
+          = image_tag tintuc.avatar,style:"height: 150px;object-fit: cover;width: 270px!important;border: 4px solid #EFEDED;border-radius: 25px 0 25px 0!important;margin:20px 20px 0 0, text-decoration:none;background-color:#fff" 
         br
         br
       - else
         nil
+      strong  
+        = tintuc.title
+      br
+      br
+      = tintuc.content
 
 
 

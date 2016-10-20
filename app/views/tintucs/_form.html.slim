@@ -1,0 +1,14 @@
+h1.text-center Create a News
+.container
+  = form_for :tintuc,url: tintucs_url, html: {multipart: true},method: :post do |f|
+    .form-group.center-block[style="width:500px;"]
+      = f.file_field :avatar
+      br
+      = f.label :title
+      = f.text_field :title,class:"form-control"
+      br
+      = f.label :content
+      = f.text_area :content,class:"form-control"
+      br
+      = f.submit "Finish",class: "btn btn-lg btn-success"
+      = link_to "Home", products_path,class: "btn btn-warning btn-lg",style: 'margin-left:10px;'

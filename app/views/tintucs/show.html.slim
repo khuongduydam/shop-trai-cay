@@ -1,0 +1,21 @@
+h1.text-center 
+.container
+  .form-group.text-center
+    = image_tag @tintuc.avatar.url(:normal)
+    br
+    br
+    br  
+    strong.pull-left[style="position:relative;left:400px;"] 
+      | Title:
+    .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"]   
+      = @tintuc.title
+    br
+    strong.pull-left[style="position:relative;left:400px;"] 
+      | Content:
+    .sample.pull-right[style="color:red;display:inline;position:relative;right:400px;"] 
+      = @tintuc.content
+    br
+    = link_to 'Back',products_path,class:'btn btn-lg btn-warning',style: "color:#fff;"
+    = link_to "Edit", edit_tintuc_url(@tintuc),class:"btn btn-lg btn-primary",style:"color:#fff; margin-left:10px;"
+    = link_to "Delete",tintuc_url,method: :delete,data:{confirm:"Wanna delete this product?"},class:"btn btn-lg btn-danger",style:"margin-left:10px;color:#fff"
+
