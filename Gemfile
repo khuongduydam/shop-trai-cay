@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem "paperclip", "~> 5.0.0"
-
+gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
 gem 'will_paginate', '~> 3.1.0'
 gem 'better_errors', '~> 2.1', '>= 2.1.1'
 gem 'slim', '~> 3.0', '>= 3.0.7'

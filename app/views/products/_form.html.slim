@@ -1,6 +1,6 @@
-h1.text-center Create a New Product
+h1.text-center 
 .container
-  = form_for :product,url: products_path, html: {multipart: true},method: :post do |f|
+  = form_for @product, html: {multipart: true} do |f|
     .form-group.center-block[style="width:500px;"]
       = f.label :avatar
       = f.file_field :avatar

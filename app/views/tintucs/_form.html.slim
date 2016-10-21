@@ -1,6 +1,6 @@
-h1.text-center Create a News
+h1.text-center 
 .container
-  = form_for :tintuc,url: tintucs_url, html: {multipart: true},method: :post do |f|
+  = form_for @tintuc, html: {multipart: true} do |f|
     .form-group.center-block[style="width:500px;"]
       = f.file_field :avatar
       br
