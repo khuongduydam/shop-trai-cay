@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.3.1'
 gem "paperclip", "~> 5.0.0"
 gem 'gmaps4rails', '~> 2.1', '>= 2.1.2'
 gem 'will_paginate', '~> 3.1.0'

@@ -216,8 +216,68 @@ br
       br
       = tintuc.content
 
-
-
+br
+br
+.container
+      .row
+        .col-sm-6
+          div[style="width:559px"]
+            #map[style="width:559px;height:257px;border-radius:20px; border:1px solid silver"]
+        .col-sm-6
+            div[style="width:559px;height:257px;border-radius:20px;border:1px solid silver;background-color: #88be4c;"]
+              = image_tag "fruit04.jpg",style:"width:110px;height:110px;border-radius:50px;border:2px solid silver;background-color: #88be4c;margin-top:10px;",class: "center-block"
+              h4.text-center[style="margin-top:20px;color:#fff"] TRÁI CÂY THẬT SỰ RẤT TƯƠI VÀ NGON
+              h5.text-center[style="margin-top:30px;color:#fff;line-height:25px;"] Trái cây thật sự rất tươi và ngon, cherry giòn ngọt hơn tôi mong đợi, không giống như những trái cây được mua ở ngoài hay ở siêu thị, giá cả hợp lý và giao hàng nhanh.
+br
+br
+.container-fluid[style="background-color:#252932;height:375px;background-image: url('/assets/fruit03.jpg');background-size:1218px 375px;background-repeat:no-repeat;"]
+  br
+  br
+  .row
+    .col-sm-3.text-center[style="width:297px;height:330px;background-color:#88be4c;color:#fff;line-height:28px;border-radius:20px;"]
+      h1 Greeny House
+      br
+      h4 Trái cây ngon, giao tận nơi
+      br
+      i.fa.fa-mobile.fa-lg[style="font-size:18px;line-height:15px;"] &nbsp 0888 48 66 88 - 0938 816 678 (sms, viber, zalo)
+      br
+      i.fa.fa-facebook-square.fa-lg[style="font-size:15px;line-height:20px;margin-left:-50px;"] 
+        = link_to 'facebook.com/home.greeny', 'https://www.facebook.com/home.greeny',target:'_blank',style:"margin-left:10px;color:#fff;text-decoration:none;background-color:transparent;"
+      br
+      i.fa.fa-globe.fal-lg[style="font-size:15px;line-height:20px;margin-left:-75px;"] 
+        = link_to 'www.greenyhouse.com', 'http://greenyhouse.com',target:'_blank',style:"margin-left:10px;color:#fff;text-decoration:none;background-color:transparent;"
+      br 
+      i.fa.fa-envelope.fal-lg[style="font-size:15px;line-height:20px;margin-left:-55px;"] 
+      = link_to 'housegreeny@gmail.com', 'mailto:housegreeny@gmail.com',style:"margin-left:10px;color:#fff;text-decoration:none;background-color:transparent;"    
+      br
+      i.fa.fa-home.fal-lg[style="font-size:15px;line-height:20px;margin-left: 2px;"]
+        | 1B Sương Nguyệt Ánh, Q.1, TP.HCM
+    .col-sm-3.text-left[style="line-height:28px"]
+      br
+      .container[style="color:#88be4c;margin-top:-5px;padding-left: 50px;font-size:15px;line-height:50px;"]
+        h4 SAN PHAM
+        li[style="list-style-type:circle;color:#fff"] Trai cay nhap khau
+        li[style="list-style-type:circle;color:#fff"] Trai cay dac san viet
+        li[style="list-style-type:circle;color:#fff"] Do kho
+        li[style="list-style-type:circle;color:#fff"] Rau cu
+    .col-sm-3[style="line-height:28px"]
+      br
+      .container[style="color:#88be4c;margin-top:-5px;margin-left: -10px;font-size:15px;line-height:50px;"]
+        h4 SITEMAP
+        li [style="list-style-type:circle;color:#fff"] Danh muc san pham
+        li [style="list-style-type:circle;color:#fff"] San phan ban chay
+        li [style="list-style-type:circle;color:#fff"] San pham moi
+        li [style="list-style-type:circle;color:#fff"] Tin tuc suc khoe
+    .col-sm-3[style="line-height:28px"]
+      br
+      .container[style="color:#88be4c;margin-top:-5px;margin-left: -70px;"]
+        h4 TIN TUC
+        ul
+          li[style="list-style-type:circle;color:#fff;margin-left:-60px;line-height:50px;font-size:14px;"] 
+            = link_to 'QUA OC CHO MUA O DAU UY TIN?','#',style:'color:#fff;'
+          li[style="list-style-type:circle;color:#fff;margin-left:-60px;line-height:50px;font-size:14px;"] TAC DUNG CUA MAT ONG DOI VOI SUC KHOE
+          li[style="list-style-type:circle;color:#fff;margin-left:-60px;line-height:50px;font-size:14px;"] MUA CHERRY TAI DAU O TPHCM
+          li[style="list-style-type:circle;color:#fff;margin-left:-60px;line-height:50px;font-size:14px;"] LAM TRANG DA TU TRAI CAY
 javascript:
   $(document).ready(function(){
     var carousel = $("#carousel-example-generic")
@@ -268,3 +328,15 @@ javascript:
      text_rau.hide();
     });
   });
+  var myLatlng = new google.maps.LatLng(10.758235,106.660617);
+  var mapOptions = {
+    zoom: 15,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      title:"Hello World!"
+  });
+  marker.setMap(map);

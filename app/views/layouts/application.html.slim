@@ -7,6 +7,10 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   script[src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"]
   script[src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"]
+  script[src="//maps.google.com/maps/api/js?key=AIzaSyDl8mlaipt90NJMVXz0qhaZeezT835-EbE"]
+  script[src="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"]
+  script
+    |  markers = handler.addMarkers(<ruby code="=raw @_hash.to_json"></ruby>); 
   link[rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"]
   link[rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"]
   body
@@ -14,9 +18,3 @@ html
       = content_tag :div, msg, class: "btn btn-info center-block", style:"font-size:25px"
 
     = yield
-    br
-    br
-    br
-    div[style="width:800px"]
-      #map[style="width:800px;height:400px;"]
-
